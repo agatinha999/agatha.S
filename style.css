@@ -18,3 +18,28 @@ header{
     border-bottom: solid 3px beige;
     
 }
+.categoria{
+    background:rgb(0, 29, 126);
+    padding-left:20px;
+    padding-ring: 20px;
+    margin-top: 50px;
+}
+.categoria-videos{
+    background: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria-videos ing{
+    height: 200px;
+    opacity: 0.5px;
+}
+.categoria-videos ing:hover{
+    opacity: 1.0;
+    border: 3px solid red;
+}
